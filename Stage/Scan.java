@@ -16,7 +16,7 @@ public class Scan implements Controller{
 	//objet de la classe Printer
 	static Printer printNow = new Printer();
 	
-	//méthodes propres à la classe
+	//mÃ©thodes propres Ã  la classe
 	public void setQrCode(String qr_Code){
 		
 		this.qrCode = qr_Code;
@@ -136,8 +136,7 @@ public class Scan implements Controller{
 		return false;
 	}
 	
-	//méthodes de la classe TPE
-	
+	//mÃ©thodes de la classe TPE
 	@Override
 	public void setMontant(double nMontant) {
 		
@@ -145,7 +144,7 @@ public class Scan implements Controller{
 	}
 	
 	
-	//méthodes de la clase TPE
+	//mÃ©thodes de la clase TPE
 	@Override
 	public double getMontant() {
 		
@@ -187,7 +186,7 @@ public class Scan implements Controller{
 	}
 	
 	
-	//méthodes de la classe Printer
+	//mÃ©thodes de la classe Printer
 	@Override
 	public void setInfos(String ticketInfos) {
 		
